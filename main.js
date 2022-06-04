@@ -3,6 +3,8 @@ let arrGastos   = [];
 let total = 0;
 let totalPC = 0;
 
+
+
 function f(){
     const nombre = document.getElementById("nombre").value;
     const monto = document.getElementById("monto").value;
@@ -20,9 +22,10 @@ function f(){
     let demo2 = document.getElementById("demo2");
     demo2.innerHTML = total;
     demo2.append(demo2);
-
-    let demo3 = document.getElementById("demo3");
-    demo3.innerHTML = monto;
-    demo3.append(demo3);
 }
 
+function g(){
+    let demo3 = document.getElementById("demo3");
+    demo3.innerHTML = totalPC;
+    demo3.append(demo3);
+}
